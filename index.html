@@ -15,12 +15,16 @@
         <label>Enter your First name: <input type="text" required/></label>
         <label>Enter your last name: <input type="text" required/></label>
         <label>Enter your email: <input type="email" required/></label>
-        <label>Enter your password: <input type="password" pattern="[a-z0-9] {8,}" required/></label>
+        <label>Enter your password: <input type="password" pattern="[a-z0-9]{8,}" required/></label>
 
     </fieldset>
-    <fieldset></fieldset>
+    <fieldset>
+        <label><input type="radio" name="account-type"/>Personal Account </label>
+        <label><input type="radio" name="account-type"/>Business Account </label>
+        <label><input type="checkbox" required/>I accept the terms</label>
+    </fieldset>
     <fieldset></fieldset>    
     <input type="submit" value="submit">
 </body>
 
-</html>
+</html>        
