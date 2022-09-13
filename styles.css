@@ -36,7 +36,18 @@ label{
     display: block;
     margin: 0.5rem 0;
 }
-textarea{
-  color:green;
+
+input, textarea, select{
+  width: 100%;
+  margin: 10px 0 0;
+  color: green;
 }
 
+.inline{
+  margin: 0.5em 0 0;
+  width: unset;
+}
+
+textarea ::placeholder{
+ color: green;
+}
