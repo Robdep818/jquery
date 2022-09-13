@@ -46,6 +46,7 @@ input, textarea, select{
 .inline{
   margin: 0.5em 0 0;
   width: unset;
+  vertical-align: middle;
 }
 
 textarea ::placeholder{
