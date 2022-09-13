@@ -12,24 +12,23 @@
     <form action="#"></form>
     <!--First name, last name, email, password fields-->
     <fieldset>
-        <label>Enter your First name: <input type="text" required/></label>
-        <label>Enter your last name: <input type="text" required/></label>
-        <label>Enter your email: <input type="email" required/></label>
+        <label>Enter your First name: <input type="text" name="firstName" required/></label>
+        <label>Enter your last name: <input type="text" name="lastName" required/></label>
+        <label>Enter your email: <input type="email" name="" required/></label>
         <label>Enter your password: <input type="password" pattern="[a-z0-9]{8,}" required/></label>
 
     </fieldset>
     <fieldset>
         <label><input type="radio" name="account-type"/>Personal Account </label>
         <label><input type="radio" name="account-type"/>Business Account </label>
-        <label><input type="checkbox" required/><I accept the><a href="#">terms and conditions<www.termsandconditionsgenerator.com</a>
+        <label><input type="checkbox" name="terms and conditions" required/><I accept the><a href="#">terms and conditions<www.termsandconditionsgenerator.com</a>
         </label><!--Terms and conditions genertor: www.termsandconditionsgenerator.com-->
     </fieldset>
     <fieldset>
-        <label>Upload a profile picture : <input type="file" /></label>
-        
+        <label>Upload a profile picture : <input type="file" name="fileUpload"/></label>
         <label>Input your age (years) : <input type="number" min="13" max="120" />
           <label>"How did you hear form us?"
-             <select />
+             <select name"referrer"/>
                <option value="">(select one)</option>
                <option value="">News</option>
                <option value="">Blog</option>
@@ -39,10 +38,10 @@
           </label>   
           <label>
             Provide a bio:
-            <textarea name="" id="" cols="30" rows="3" placeholder="I like coding on a rainy day"></textarea>
+            <textarea name="bio" id="" cols="30" rows="3" placeholder="I like coding on a rainy day"></textarea>
            </label>
     </fieldset>    
     <input type="submit" value="submit">
 </body>
 
-</html>        \index.html
+</html>        
